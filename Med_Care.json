@@ -1,0 +1,122 @@
+{
+	"diseases": [{
+			" Acute intracranial hemorrhage": {
+				"symptoms": [
+					"sudden onset of severe headache",
+					"trouble swallowing",
+					"trouble with vision in one or both eyes",
+					"loss of balance and coordination",
+					" dizziness",
+					"trouble with language skills (reading, writing, speaking, understanding)",
+					"nausea",
+					"vomiting",
+					"apathy",
+					"sleepiness",
+					"lethargy",
+					"loss of consciousness",
+					"confusion",
+					"delirium"
+				],
+				"diagnosis": "Computed Tomography"
+			}
+		},
+		{
+			" Arterial-venous aneurysm": {
+				"symptoms": [
+					"Seizures",
+					"Headache or pain in one area of the head",
+					"Muscle weakness or numbness in one part of the body",
+					"Severe headache",
+					"Weakness",
+					"numbness or paralysis",
+					"Vision loss",
+					"Difficulty speaking",
+					"Confusion or inability to understand others",
+					"Severe unsteadiness"
+				],
+				"diagnosis": "Computed Tomography"
+			}
+		},
+      {"Brain aneurysm": {
+	"symptoms": [
+		"Sudden, extremely severe headache",
+		"Nausea and vomiting",
+		"Stiff neck",
+		"Blurred or double vision",
+		"Sensitivity to light",
+		"Seizure",
+		"A drooping eyelid",
+		"Loss of consciousness",
+		"Confusion"
+	],
+	"diagnosis": "Duplex Scanning"
+}
+},
+		{
+			"Primary, secondary or recurrent brain tumor": {
+				"symptoms": [
+					"New onset or change in pattern of headaches",
+					"Headaches that gradually become more frequent and more severe",
+					"Unexplained nausea or vomiting",
+					"Vision problems, such as blurred vision, double vision or loss of peripheral vision",
+					"Gradual loss of sensation or movement in an arm or a leg",
+					"Difficulty with balance",
+					"Speech difficulties",
+					"Confusion in everyday matters",
+					"Personality or behavior changes",
+					"Seizures, especially in someone who doesn't have a history of seizures",
+					"Hearing problems"
+				],
+                "diagnosis_needed" : "Computed Tomography", "Duplex Scanning"
+			}
+		}
+	],
+	"hospitals": [{
+			"Astxik Medical Center": {
+				"address": "Daniel Varuzhani St., 28 Building",
+				"phone_number": "+374-11-667788",
+				"diagnosis": {
+					"Computed Tomography": {
+						"price": "40000 AMD"
+					},
+                    "Duplex Scunning ": {
+						"price": "60000 AMD"
+					}
+				},
+                "diseases" : [
+                  "Primary, secondary or recurrent brain tumor","Arterial-venous aneurysm"," Acute intracranial hemorrhage","Brain aneurysm"
+                ]
+			},
+			"Nairi Medical Center": {
+				"address": "Paronyan St., 21 Building",
+				"phone_number": " +374-10-537500",
+				"diagnosis": {
+					"Computed Tomography": {
+						"price": "40000 AMD"
+                       "Duplex Scunning ": {
+						"price": "60000 AMD"
+					}
+                    },
+                   "diseases" : [
+                  "Primary, secondary or recurrent brain tumor","Arterial-venous aneurysm"," Acute intracranial hemorrhage","Brain aneurysm"
+                ]
+				}
+			}
+		},
+		{
+			"Slavmed  Medical Center": {
+				"address": "Marshal Baghramyan Ave. 3rd Lane, 4/2 Building",
+				"phone_number": " +374-10-322211 ",
+				"diagnosis": {
+					"Computed Tomography": {
+						"price": "400000 AMD"
+                       "Duplex Scunning ": {
+						"price": "60000 AMD"
+					}
+					}
+                   "diseases" : [
+                  "Primary, secondary or recurrent brain tumor"," Acute intracranial hemorrhage","Brain aneurysm"
+                ]
+				}
+			}
+		},
